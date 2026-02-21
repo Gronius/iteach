@@ -1,6 +1,14 @@
-.link{
+@use "variables" as var;
 
-  padding: 6px 12px;
-  border-radius: 6px;
-  margin-left: 20px;
+.link{
+  color: var(--black-color);
+  transition: var(--transition);
+  font-weight: 700;
+
+      &:hover,
+      &:active,
+      &:focus,
+      &_active {
+    color: var(--violett-color);
+  }
 }

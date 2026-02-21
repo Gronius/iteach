@@ -1,4 +1,22 @@
+@use './styles/global';
 
+html {
+    background-color: yellowgreen;
+}
+body,
+ul,
+li,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+button {
+  margin: 0;
+  padding: 0;
+}
 a {
     text-decoration: none;
     color: unset;
@@ -12,6 +30,7 @@ li {
 
 
 body {
-  background-color: yellowgreen;
+  background-color: #c0d8d8;
 }
+
 
