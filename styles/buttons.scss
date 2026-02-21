@@ -1,5 +1,19 @@
 .button{
-  padding: 6px 12px;
+  border: 1px solid var(--grey-color);
+  transition: var(--transition);
+  border-radius: 20px;
+  font:var(--smaller-font);
+  cursor: pointer;
+
+  &:hover, &:active, &:focus{
+    border-color: var(--violett-color) ;
+  }
+
+  &_round{
+    --size:40px;
+    width: var(--size);
+    height: var(--size);
+    border-radius: 50%;
+  }
  
-  border-radius: 6px;
 }

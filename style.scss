@@ -1,7 +1,8 @@
 @use './styles/global';
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Inter:wght@700&display=swap");
 
 html {
-    background-color: yellowgreen;
+    background-color: var(--white-color);
 }
 body,
 ul,
@@ -22,6 +23,11 @@ a {
     color: unset;
 }
 
+button{
+  background-color: transparent;
+  border: none;
+}
+
 li {
     list-style: none;
 }
@@ -30,7 +36,7 @@ li {
 
 
 body {
-  background-color: #c0d8d8;
+  // background-color: #c0d8d8;
 }
 
 

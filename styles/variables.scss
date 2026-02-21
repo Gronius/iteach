@@ -8,13 +8,14 @@ $bigger-desktop: 1400px;
 
 
 :root{
-//   --bigger-mobile:576px;
-//   --tablet: 768px;
-//  --desktop: 1200px;
-//  --bigger-desktop: 1400px;
+//   font
+  --smaller-font: 700 12px 'Inter', sans-serif;
+
  
 
  // spacers
+  --gap: 15px;
+
   --transition: .3s;
  }
  

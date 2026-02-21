@@ -5,6 +5,16 @@ header, main, footer{
     flex-direction: column;
     align-items: center;
 }
+
+
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--gap);
+
+}
 .container{
     width: 100%;
 
@@ -24,3 +34,11 @@ header, main, footer{
         width: 1320px;
     }
 }
+
+.navigatoin ul {
+    display: flex;
+    gap: var(--gap);
+
+    font: var(--smaller-font);
+    text-transform: uppercase;
+    }
