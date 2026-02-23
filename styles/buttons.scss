@@ -1,18 +1,43 @@
+@use "variables" as *;
+
+.button,
+.button-svg {
+    display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
 .button{
+  --size: 30px;
+
+  padding: 0 var(--gap);
+
+  height: var(--size);
   border: 1px solid var(--grey-color);
+
+  color: var(--black-color);
   transition: var(--transition);
-  border-radius: 20px;
-  font:var(--smaller-font);
+  border-radius: var(--size);
+  font: var(--smaller-font);
   cursor: pointer;
+      svg {
+      fill: var(--violett-color);
+    }
 
   &:hover, &:active, &:focus{
-    border-color: var(--violett-color) ;
+    border-color: var(--violett-color);
+    background-color: var(--violett-color);
+    color: var(--white-color);
+
+    svg {
+      fill: var(--white-color);
+    }
   }
 
   &_round{
-    --size:40px;
+    padding: 0;
     width: var(--size);
-    height: var(--size);
     border-radius: 50%;
   }
  

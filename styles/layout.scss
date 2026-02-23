@@ -1,4 +1,4 @@
-@use "variables" as* ;
+@use "variables" as *;
 
 header, main, footer{
     display: flex;
@@ -8,13 +8,7 @@ header, main, footer{
 
 
 
-header .container {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: var(--gap);
 
-}
 .container{
     width: 100%;
 
@@ -35,10 +29,3 @@ header .container {
     }
 }
 
-.navigatoin ul {
-    display: flex;
-    gap: var(--gap);
-
-    font: var(--smaller-font);
-    text-transform: uppercase;
-    }

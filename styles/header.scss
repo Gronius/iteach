@@ -1,0 +1,22 @@
+@use "variables" as *;
+
+
+header {
+
+   .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--gap);
+
+  }
+  .header__buttons, .navigatoin ul {
+    display: flex;
+    gap: var(--gap);
+  }
+
+  .navigatoin ul {
+    font: var(--smaller-font);
+    text-transform: uppercase;
+    }
+}
