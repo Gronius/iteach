@@ -53,7 +53,7 @@
 
   &_bigger {
     height: calc(var(--size) * 1.15);
-     padding: 0 calc(var(--gap) * 2);
+     padding: 0 calc(var(--gap) * 1.15);
   }
  
 }
