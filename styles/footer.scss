@@ -25,11 +25,11 @@ footer{
 
   @keyframes wave {
     0% {
-      transform: rotate(0deg);
+      transform: rotate(1deg);
     }
 
     100% {
-      transform: rotate(0deg);
+      transform: rotate(-1deg);
     }
   }
  }
@@ -61,17 +61,11 @@ footer{
   }
 
   .footer__navigation ul {
-    // flex-wrap: wrap;
        display: flex;
     gap: calc(var(--gap) * 2);
     font: var(--smaller-font);
     text-transform: uppercase;
 
-    // li {
-    //   display: flex;
-    //   width: 80px;
-    //   align-self: start;
-    // }
   }
   .footer__language {
     width: 208px;
